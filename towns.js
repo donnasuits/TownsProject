@@ -20,6 +20,13 @@ function deleteTown() {
         showMessage(townName + " not found.");
 }
 
+function addTown() {
+	let townName = $('#townNameForAdd').val();
+	$('#townNameForAdd').val('');
+	$('#towns').append($('<option>').text(townName));
+	$('#result').text(townName + " added.");
+}
+
 function showMessage(msg) {
     $('#result').text(msg).css("display", "block");
     setTimeout(function () {
