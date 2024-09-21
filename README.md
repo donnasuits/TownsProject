@@ -3,6 +3,6 @@
 
 # Roles
   Donna takes the role “Styler”.
-  Donna takes the role Team Leader
+  Donna takes the role Team Leader.
   Nevena takes the role “Editor”.
   Nevena takes the role “Shiffler”.
